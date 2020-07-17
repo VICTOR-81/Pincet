@@ -1,0 +1,358 @@
+*{
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+  display: inline-block;
+}
+ul,
+li{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.home{
+  background-image: url(../img/wave.png), url(../img/girl.png), url(../img/fon-home.jpg);
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-size: 100%, 41vw auto, cover;
+  background-position: bottom , bottom 73px right, center;
+  width: 100%;
+  padding-top: 3vw;
+  padding-bottom: 20px;
+}
+/* .wave{
+  background-image: url(../img/wave.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /* min-height: 138px;
+  margin-top: -65px; 
+} */
+.container{
+  max-width: 1560px;
+  margin: 0 auto;
+  padding: 0 15px; 
+}
+.header__top{
+  padding: 0 15px;
+  display: flex;
+  justify-content: space-between;
+}
+.header__top-left{
+  display: flex;
+  justify-content: flex-start;
+  left: 0;
+}
+.header__top-logo{
+  margin-right: 44px;
+}
+.header__top-text{
+  max-width: 9vw;
+  padding-top: 38px;
+  font-size: 14px;
+  font-family: "MuseoSanaCyrl-300";
+  color:#424040;
+}
+.header__top-right{
+  display: flex;
+  justify-content: flex-end;
+}
+.header__top-adress{
+  width: 313px;
+  padding-left: 100px;
+  padding-top: 27px;
+  position: relative;
+}
+.header__top-adress::before{
+  content: "";
+  background-image: url(../img/icon-map.png);
+  position: absolute;
+  background-size: cover;
+  width: 108px;
+  height: 108px;
+  left: 0;
+  top: 14px;
+}
+.f700{
+  font-size: 16px;
+  font-family: "MuseoSanaCyrl-700";
+  color:#282828;
+  padding-bottom: 9px;
+  letter-spacing: 0.5px;
+}
+.f300{
+  font-size: 16px;
+  font-family: "MuseoSanaCyrl-300";
+  color:#282828;
+  letter-spacing: 0.5px;
+}
+.map{
+  font-size: 12px;
+  font-family: "MuseoSanaCyrl-500";
+  color:#ff7860;
+  line-height: 0.01px;
+  border-bottom: 1px dashed #ff7860;
+  padding-bottom: 7px;
+  padding-top: 21px;
+  letter-spacing: 1px;
+}
+.heder__map{
+  position: absolute;
+}
+.map span{
+  position: absolute;
+  top: 35px;
+  left: -80px;
+  transition: 0s;
+  display: none;
+}
+a:hover span{
+  top: 35px;
+  display: block;
+}
+.header__top-tel{
+  width: 300px;
+
+}
+.tel{
+  position: relative;
+  padding-left: 57px;
+  padding-top: 13px;
+}
+.tel::before{
+  content: "";
+  background-image: url(../img/icon-tel.png);
+  position: absolute;
+  background-size: cover;
+  width: 65px;
+  height: 65px;
+  left: 0;
+  top: 11px;
+}
+.tel__text{
+  font-size: 12px;
+  font-family: "MuseoSanaCyrl-500";
+  color:#282828;
+  padding-bottom: 10px;
+  padding-left: 19px;
+  position: relative;
+  display: inline-block;
+  padding-top: 2px;
+  letter-spacing: 0.8px;
+}
+.tel__text::before{
+  content: "";
+  background-image: url(../img/green-ball.png);
+  position: absolute;
+  background-size: cover;
+  width: 18px;
+  height: 18px;
+  left: 0;
+  top: 0;
+
+}
+.tel__number{
+  font-size: 24px;
+  font-family: "MuseoSanaCyrl-500";
+  color:#282828;
+  line-height: 18px;
+  padding-left: 4px;
+  letter-spacing: 0.25px;
+}
+.work{
+  padding-top: 20px;
+  padding-left: 60px;
+  position: relative;
+}
+.work::before{
+  content: "";
+  background-image: url(../img/icon-clock.png);
+  position: absolute;
+  background-size: cover;
+  width: 65px;
+  height: 65px;
+  left: 0;
+  top: 0;
+}
+.w-f700{
+  font-size: 16px;
+  color:#282828;
+  line-height: 21px;
+  font-family: "MuseoSanaCyrl-700";
+  letter-spacing: 0.5px;
+}
+.w-f300{
+  font-size: 16px;
+  color:#282828;
+  line-height: 21px;
+  font-family: "MuseoSanaCyrl-300";
+  letter-spacing: 0.5px;
+}
+.header__top-btn{
+  padding-top: 23px;
+}
+.btn{
+  width: 230px;
+
+
+  position: relative;
+  display: inline-block;
+}
+.header__btn:before{
+  content: "";
+  background-image: url(../img/icon1.png);
+  position: absolute;
+  background-size: cover;
+  height: 20px;
+  width: 20px;
+  left: 26px;
+  top: 28px;
+}
+.header__btn{
+  font-size: 15px;
+  font-family: "MuseoSanaCyrl-500";
+  color:#1f1d1d;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  background-color: #fefcfb;
+  padding-left: 58px;
+  padding-top: 26px;
+  padding-bottom: 23px;
+  border-radius: 100px;
+  text-decoration: none;
+  box-shadow: 0 5px 0 #ebeaea;
+  padding-right: 20px;
+  position: relative;
+  display: inline-block;
+}
+.header__menu{
+  margin-top: 15px;
+}
+.header__menu-front{
+  height: 60px;
+  width: 100%;
+  background-color: #ffffff;
+  padding: 0px 35px;
+  border-radius: 4px;
+}
+.header__menu-front li{
+  display: inline-block;
+}
+.header__menu-front ul{
+  display: flex;
+  justify-content: space-between;
+}
+.header__menu-front a{
+  font-size: 15px;
+  color:#7e7e7e;
+  line-height: 21px;
+  font-family: "MuseoSanaCyrl-300";
+  letter-spacing: 0.5px;
+  padding-top: 21px;
+  text-align:center;
+}
+.header__menu-front a:hover{
+  text-shadow: 0 0 .65px #282828, 0 0 .65px #282828;
+}
+.header__menu-end{
+  margin: 0px 20px;
+  height: 8px;
+  background-color: #fbfbfa;
+  border-radius: 0px 0px 4px 4px;
+}
+.content{
+  /* margin-top: 28px;
+  background-image: url(../img/girl.png);
+  min-height: 765px;
+  background-repeat: no-repeat;
+  background-position: bottom right; */
+}
+
+.content__title{
+  margin-top: 108px;
+  margin-left: 115px;
+}
+.title-f300{
+  font-size: 48px;
+  color:#282828;
+  line-height: 55px;
+  font-family: "MuseoSanaCyrl-300";
+  letter-spacing: 0px;
+}
+.title-f700{
+  font-size: 48px;
+  color:#282828;
+  line-height: 55px;
+  font-family: "MuseoSanaCyrl-700";
+  letter-spacing: 0px;
+}
+.content__block{
+  display: flex;
+  justify-content: flex-start;
+}
+.content__text{
+  margin-top: 70px;
+  margin-left: 115px;
+  width: 510px;
+}
+.content__text li{
+  font-size: 18px;
+  color:#282828;
+  line-height: 36px;
+  font-family: "MuseoSanaCyrl-300";
+  letter-spacing: 0.25px;
+  padding-left: 25px;
+  position: relative;
+}
+.content__text li::before{
+  content: "";
+  background-image: url(../img/pink-ball.png);
+  position: absolute;
+  background-size: cover;
+  height: 38px;
+  width: 38px;
+  left: -7px;
+  top: 1px;
+}
+.cont__btn{
+  font-size: 14px;
+  font-family: "MuseoSanaCyrl-500";
+  color:#ffffff;
+  letter-spacing: 1.2px;
+  background-color: #f4a3a7;
+  padding-left: 38px;
+  padding-top: 26px;
+  padding-bottom: 23px;
+  border-radius: 100px;
+  text-decoration: none;
+  box-shadow: 0 5px 0 #f08c92, 0 10px 0 #d7747a;
+  padding-right: 150px;
+  position: relative;
+  display: inline-block;
+}
+.cont__btn::after{
+  content: "";
+  background-image: url(../img/Branch.png);
+  position: absolute;
+  background-size: cover;
+  height: 74px;
+  width: 273px;
+  left: 205px;
+  top: 6px;
+}
+.cont__btn span{
+  display: block;
+  text-align: center;
+}
+.content__card{
+  background-image: url(../img/client-card.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 425px;
+  height: 360px;
+}
+.content__btn{
+  margin-top: 65px;
+  margin-left: 115px;
+}

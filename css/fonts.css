@@ -1,0 +1,24 @@
+@font-face {
+  font-family: "Appetite_New";
+  src:url(../fonts/Appetite_New.otf)
+}
+@font-face {
+  font-family: "MuseoSanaCyrl-900";
+  src:url(../fonts/MUSEOSANSCYRL.OTF)
+}
+@font-face {
+  font-family: "MuseoSanaCyrl-100";
+  src:url(../fonts/MUSEOSANSCYRL_0.OTF)
+}
+@font-face {
+  font-family: "MuseoSanaCyrl-300";
+  src:url(../fonts/MUSEOSANSCYRL_1.OTF)
+}
+@font-face {
+  font-family: "MuseoSanaCyrl-500";
+  src:url(../fonts/MUSEOSANSCYRL_2.OTF)
+}
+@font-face {
+  font-family: "MuseoSanaCyrl-700";
+  src:url(../fonts/MUSEOSANSCYRL_3.OTF)
+}
